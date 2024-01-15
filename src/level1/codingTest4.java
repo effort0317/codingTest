@@ -1,16 +1,18 @@
+package level1;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class codingTest4 {
 
     public static void main(String[] args) {
-        Solution1 solution1 = new Solution1();
+        Solution4 solution4 = new Solution4();
 
     }
 }
 
-// 출처 : 프로그래머스(https://www.programmers.co.kr)>코딩테스트 연습>숫자 문자열과 영단어
-class Solution1 {
+// 문제출처 : 프로그래머스(https://www.programmers.co.kr)>코딩테스트 연습>숫자 문자열과 영단어
+class Solution4 {
     public int solution(String s) {
         Map<String, String> map = new HashMap<>();
         map.put("zero","0");
