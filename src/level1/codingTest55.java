@@ -45,7 +45,6 @@ class Solution55 {
 
         for(int i=0;i< answer.length;i++){
             answer[i] = answerList.get(i).intValue();
-            System.out.println("answer is "+answer[i]);
         }
 
         return answer;
